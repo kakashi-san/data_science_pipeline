@@ -1,0 +1,16 @@
+data:
+  url: path/to/your/data.csv
+  columns:
+    - feature1
+    - feature2
+    - feature3
+    - class
+
+train_test_split:
+  test_size: 0.2
+  random_state: 42
+
+model:
+  random_state: 42
+
+epochs: 5
